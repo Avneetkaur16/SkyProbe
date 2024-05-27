@@ -1,0 +1,70 @@
+.admin-profile-main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.admin-profile-nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 1px 1px 2px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: navy;
+}
+
+.admin-profile-nav small {
+    cursor: pointer;
+}
+
+.admin-profile-user {
+    width: 100vw;
+    height: 5vh;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.admin-profile-operations {
+    width: 100vw;
+    min-height: 20vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.admin-profile-op {
+    width: 70vw;
+    height: 7vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px gray;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.admin-profile-op:hover {
+    background-color: navy;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+    .admin-profile-op {
+        width: 50vw;
+    }
+}
